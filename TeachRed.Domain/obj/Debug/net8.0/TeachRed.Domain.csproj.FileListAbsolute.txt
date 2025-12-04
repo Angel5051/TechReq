@@ -1,0 +1,14 @@
+D:\my web sait\TeachRed.Domain\bin\Debug\net8.0\TeachRed.Domain.deps.json
+D:\my web sait\TeachRed.Domain\bin\Debug\net8.0\TeachRed.Domain.dll
+D:\my web sait\TeachRed.Domain\bin\Debug\net8.0\TeachRed.Domain.pdb
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.AssemblyInfoInputs.cache
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.AssemblyInfo.cs
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.csproj.CoreCompileInputs.cache
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.dll
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\refint\TeachRed.Domain.dll
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.pdb
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\ref\TeachRed.Domain.dll
+D:\my web sait\TeachRed.Domain\bin\Debug\net8.0\TeachRed.Domain.runtimeconfig.json
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.genruntimeconfig.cache
+D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.csproj.AssemblyReference.cache

@@ -1,0 +1,17 @@
+D:\my web sait\TeachRed.Service\bin\Debug\net8.0\TeachRed.Service.deps.json
+D:\my web sait\TeachRed.Service\bin\Debug\net8.0\TeachRed.Service.dll
+D:\my web sait\TeachRed.Service\bin\Debug\net8.0\TeachRed.Service.pdb
+D:\my web sait\TeachRed.Service\bin\Debug\net8.0\TeachRed.Domain.dll
+D:\my web sait\TeachRed.Service\bin\Debug\net8.0\TechReq.DAL.dll
+D:\my web sait\TeachRed.Service\bin\Debug\net8.0\TeachRed.Domain.pdb
+D:\my web sait\TeachRed.Service\bin\Debug\net8.0\TechReq.DAL.pdb
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.csproj.AssemblyReference.cache
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.AssemblyInfoInputs.cache
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.AssemblyInfo.cs
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.csproj.CoreCompileInputs.cache
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.F912F8F8.Up2Date
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.dll
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\refint\TeachRed.Service.dll
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.pdb
+D:\my web sait\TeachRed.Service\obj\Debug\net8.0\ref\TeachRed.Service.dll

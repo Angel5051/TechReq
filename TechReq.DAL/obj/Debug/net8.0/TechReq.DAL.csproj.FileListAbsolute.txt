@@ -1,0 +1,17 @@
+D:\my web sait\TechReq.DAL\bin\Debug\net8.0\TechReq.DAL.deps.json
+D:\my web sait\TechReq.DAL\bin\Debug\net8.0\TechReq.DAL.dll
+D:\my web sait\TechReq.DAL\bin\Debug\net8.0\TechReq.DAL.pdb
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.AssemblyInfoInputs.cache
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.AssemblyInfo.cs
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.csproj.CoreCompileInputs.cache
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.dll
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\refint\TechReq.DAL.dll
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.pdb
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\ref\TechReq.DAL.dll
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.csproj.AssemblyReference.cache
+D:\my web sait\TechReq.DAL\bin\Debug\net8.0\TeachRed.Domain.dll
+D:\my web sait\TechReq.DAL\bin\Debug\net8.0\TeachRed.Domain.pdb
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq..82959F74.Up2Date
+D:\my web sait\TechReq.DAL\bin\Debug\net8.0\TechReq.DAL.runtimeconfig.json
+D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.genruntimeconfig.cache

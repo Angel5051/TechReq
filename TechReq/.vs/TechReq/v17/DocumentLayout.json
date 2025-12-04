@@ -1,0 +1,785 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\my web sait\\TechReq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3AB791-0055-4D2B-A09C-534D8DA58D2A}|..\\TechReq.DAL\\TechReq.DAL.csproj|d:\\my web sait\\techreq.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my web sait\\TechReq\\Views\\Parts\\ListOfParts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Parts\\ListOfParts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673A624-165E-4EB4-BBBF-113C06B152E7}|..\\TeachRed.Service\\TeachRed.Service.csproj|d:\\my web sait\\teachred.service\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673A624-165E-4EB4-BBBF-113C06B152E7}|..\\TeachRed.Service\\TeachRed.Service.csproj|d:\\my web sait\\teachred.service\\realizations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\models\\requests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\models\\requestfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\modelsdb\\requestdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\viewmodels\\loginandregistration\\confirmemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3AB791-0055-4D2B-A09C-534D8DA58D2A}|..\\TechReq.DAL\\TechReq.DAL.csproj|d:\\my web sait\\techreq.dal\\storage\\usersstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3AB791-0055-4D2B-A09C-534D8DA58D2A}|..\\TechReq.DAL\\TechReq.DAL.csproj|d:\\my web sait\\techreq.dal\\storage\\repairstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\enum\\statusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\enum\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\enum\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\response\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\viewmodels\\loginandregistration\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\validators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\modelsdb\\usersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\modelsdb\\servicedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\modelsdb\\requestfiledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3673A624-165E-4EB4-BBBF-113C06B152E7}|..\\TeachRed.Service\\TeachRed.Service.csproj|d:\\my web sait\\teachred.service\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\helpers\\authenticateuserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\helpers\\hashpasswordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\techreq.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:techreq.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sasam\\AppData\\Roaming\\Microsoft\\UserSecrets\\db567b15-e0e4-4fce-b27f-f51c08e0d357\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sasam\\AppData\\Roaming\\Microsoft\\UserSecrets\\b298bbe0-7ebb-42a8-9021-f4a9035cfa03\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\viewmodels\\loginandregistration\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3AB791-0055-4D2B-A09C-534D8DA58D2A}|..\\TechReq.DAL\\TechReq.DAL.csproj|d:\\my web sait\\techreq.dal\\interfaces\\ibasestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3AB791-0055-4D2B-A09C-534D8DA58D2A}|..\\TechReq.DAL\\TechReq.DAL.csproj|d:\\my web sait\\techreq.dal\\storage\\inventorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3AB791-0055-4D2B-A09C-534D8DA58D2A}|..\\TechReq.DAL\\TechReq.DAL.csproj|d:\\my web sait\\techreq.dal\\storage\\customerstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\teachred.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|d:\\my web sait\\techreq\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66DEB21E-36D3-4FF7-98A8-CD5A261951E4}|TechReq.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA2B1E1-D6B9-4C21-ADB8-8F3AFB7CDD59}|..\\TeachRed.Domain\\TeachRed.Domain.csproj|d:\\my web sait\\teachred.domain\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3AB791-0055-4D2B-A09C-534D8DA58D2A}|..\\TechReq.DAL\\TechReq.DAL.csproj|d:\\my web sait\\techreq.dal\\migrations\\20251127105619_bgmj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my web sait\\TechReq.DAL\\Migrations\\20251127103445_updateColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3AB791-0055-4D2B-A09C-534D8DA58D2A}|..\\TechReq.DAL\\TechReq.DAL.csproj|d:\\my web sait\\techreq.dal\\migrations\\20251127105341_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my web sait\\TeachRed.Service\\Interfaces\\IPartsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my web sait\\TechReq\\Controllers\\PartsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PartsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\my web sait\\TeachRed.Service\\Realizations\\PartsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 305,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\my web sait\\TechReq\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T12:59:37.025Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\my web sait\\TechReq\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADwvzcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T08:20:39.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListOfParts.cshtml",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Views\\Parts\\ListOfParts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parts\\ListOfParts.cshtml",
+              "ToolTip": "D:\\my web sait\\TechReq\\Views\\Parts\\ListOfParts.cshtml",
+              "RelativeToolTip": "Views\\Parts\\ListOfParts.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-03T15:03:05.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Service\\Interfaces\\IAccountService.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Service\\Interfaces\\IAccountService.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Service\\Interfaces\\IAccountService.cs",
+              "RelativeToolTip": "..\\TeachRed.Service\\Interfaces\\IAccountService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T18:54:39.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IPartsService.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Service\\Interfaces\\IPartsService.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Service\\Interfaces\\IPartsService.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Service\\Interfaces\\IPartsService.cs",
+              "RelativeToolTip": "..\\TeachRed.Service\\Interfaces\\IPartsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T15:18:59.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PartsController.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Controllers\\PartsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartsController.cs",
+              "ToolTip": "D:\\my web sait\\TechReq\\Controllers\\PartsController.cs",
+              "RelativeToolTip": "Controllers\\PartsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T15:05:05.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Initializer.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Initializer.cs",
+              "RelativeDocumentMoniker": "Initializer.cs",
+              "ToolTip": "D:\\my web sait\\TechReq\\Initializer.cs",
+              "RelativeToolTip": "Initializer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:08:30.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\my web sait\\TechReq\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAUwJoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:03:29.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq.DAL\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\TechReq.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\my web sait\\TechReq.DAL\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\TechReq.DAL\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:29:52.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\my web sait\\TechReq\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAH8CAAAAAAAAAAAIwMECAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-01T08:47:04.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PartsService.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Service\\Realizations\\PartsService.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Service\\Realizations\\PartsService.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Service\\Realizations\\PartsService.cs",
+              "RelativeToolTip": "..\\TeachRed.Service\\Realizations\\PartsService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T16:07:51.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Requests.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Models\\Requests.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Models\\Requests.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Models\\Requests.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Models\\Requests.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:54:54.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Service\\Realizations\\AccountService.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Service\\Realizations\\AccountService.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Service\\Realizations\\AccountService.cs",
+              "RelativeToolTip": "..\\TeachRed.Service\\Realizations\\AccountService.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAiwE0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T19:04:14.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RequestDb.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\ModelsDb\\RequestDb.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\ModelsDb\\RequestDb.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\ModelsDb\\RequestDb.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\ModelsDb\\RequestDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:36:26.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Models\\Users.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Models\\Users.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Models\\Users.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:13:45.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RequestFiles.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Models\\RequestFiles.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Models\\RequestFiles.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Models\\RequestFiles.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Models\\RequestFiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:10:13.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConfirmEmailViewModel.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T14:43:31.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StatusRequest.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Enum\\StatusRequest.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Enum\\StatusRequest.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Enum\\StatusRequest.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Enum\\StatusRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:42:57.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StatusCode.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Enum\\StatusCode.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Enum\\StatusCode.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Enum\\StatusCode.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Enum\\StatusCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:43:37.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Enum\\Role.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Enum\\Role.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Enum\\Role.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Enum\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:06:28.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Response\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Response\\BaseResponse.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Response\\BaseResponse.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Response\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T10:22:15.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsersStorage.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq.DAL\\Storage\\UsersStorage.cs",
+              "RelativeDocumentMoniker": "..\\TechReq.DAL\\Storage\\UsersStorage.cs",
+              "ToolTip": "D:\\my web sait\\TechReq.DAL\\Storage\\UsersStorage.cs",
+              "RelativeToolTip": "..\\TechReq.DAL\\Storage\\UsersStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:36:39.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RepairStorage.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq.DAL\\Storage\\RepairStorage.cs",
+              "RelativeDocumentMoniker": "..\\TechReq.DAL\\Storage\\RepairStorage.cs",
+              "ToolTip": "D:\\my web sait\\TechReq.DAL\\Storage\\RepairStorage.cs",
+              "RelativeToolTip": "..\\TechReq.DAL\\Storage\\RepairStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T10:23:02.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:23:15.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Validators.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Validators.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Validators.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Validators.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Validators.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T10:12:29.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\my web sait\\TechReq\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T13:00:32.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\my web sait\\TechReq\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T12:59:26.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\my web sait\\TechReq\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T09:54:50.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UsersDb.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\ModelsDb\\UsersDb.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\ModelsDb\\UsersDb.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\ModelsDb\\UsersDb.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\ModelsDb\\UsersDb.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:38:03.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ServiceDb.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\ModelsDb\\ServiceDb.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\ModelsDb\\ServiceDb.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\ModelsDb\\ServiceDb.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\ModelsDb\\ServiceDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:39:25.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RequestFileDb.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\ModelsDb\\RequestFileDb.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\ModelsDb\\RequestFileDb.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\ModelsDb\\RequestFileDb.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\ModelsDb\\RequestFileDb.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:37:02.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppMappingProfile.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Service\\AppMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Service\\AppMappingProfile.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Service\\AppMappingProfile.cs",
+              "RelativeToolTip": "..\\TeachRed.Service\\AppMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:25:32.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\my web sait\\TechReq\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAACMBAAAAAAAAAAAcwDoBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-27T11:23:58.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HashPasswordHelper.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Helpers\\HashPasswordHelper.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Helpers\\HashPasswordHelper.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Helpers\\HashPasswordHelper.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Helpers\\HashPasswordHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T13:42:52.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthenticateUserHelper.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Helpers\\AuthenticateUserHelper.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Helpers\\AuthenticateUserHelper.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Helpers\\AuthenticateUserHelper.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Helpers\\AuthenticateUserHelper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T13:48:57.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\my web sait\\TechReq\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T12:59:13.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T10:22:13.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\sasam\\AppData\\Roaming\\Microsoft\\UserSecrets\\db567b15-e0e4-4fce-b27f-f51c08e0d357\\secrets.json",
+              "ToolTip": "C:\\Users\\sasam\\AppData\\Roaming\\Microsoft\\UserSecrets\\db567b15-e0e4-4fce-b27f-f51c08e0d357\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-03T08:39:54.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\sasam\\AppData\\Roaming\\Microsoft\\UserSecrets\\b298bbe0-7ebb-42a8-9021-f4a9035cfa03\\secrets.json",
+              "ToolTip": "C:\\Users\\sasam\\AppData\\Roaming\\Microsoft\\UserSecrets\\b298bbe0-7ebb-42a8-9021-f4a9035cfa03\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-03T08:44:02.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TechReq.csproj",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\TechReq.csproj",
+              "RelativeDocumentMoniker": "TechReq.csproj",
+              "ToolTip": "D:\\my web sait\\TechReq\\TechReq.csproj",
+              "RelativeToolTip": "TechReq.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-03T08:43:58.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IBaseStorage.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq.DAL\\Interfaces\\IBaseStorage.cs",
+              "RelativeDocumentMoniker": "..\\TechReq.DAL\\Interfaces\\IBaseStorage.cs",
+              "ToolTip": "D:\\my web sait\\TechReq.DAL\\Interfaces\\IBaseStorage.cs",
+              "RelativeToolTip": "..\\TechReq.DAL\\Interfaces\\IBaseStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T18:47:53.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InventoryStorage.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq.DAL\\Storage\\InventoryStorage.cs",
+              "RelativeDocumentMoniker": "..\\TechReq.DAL\\Storage\\InventoryStorage.cs",
+              "ToolTip": "D:\\my web sait\\TechReq.DAL\\Storage\\InventoryStorage.cs",
+              "RelativeToolTip": "..\\TechReq.DAL\\Storage\\InventoryStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T10:23:00.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CustomerStorage.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq.DAL\\Storage\\CustomerStorage.cs",
+              "RelativeDocumentMoniker": "..\\TechReq.DAL\\Storage\\CustomerStorage.cs",
+              "ToolTip": "D:\\my web sait\\TechReq.DAL\\Storage\\CustomerStorage.cs",
+              "RelativeToolTip": "..\\TechReq.DAL\\Storage\\CustomerStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T10:22:59.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TeachRed.Domain.csproj",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\TeachRed.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\TeachRed.Domain.csproj",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\TeachRed.Domain.csproj",
+              "RelativeToolTip": "..\\TeachRed.Domain\\TeachRed.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-01T09:42:01.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\my web sait\\TechReq\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T12:59:34.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\my web sait\\TechReq\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\my web sait\\TechReq\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T13:02:50.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20251127105341_Init.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq.DAL\\Migrations\\20251127105341_Init.cs",
+              "RelativeDocumentMoniker": "..\\TechReq.DAL\\Migrations\\20251127105341_Init.cs",
+              "ToolTip": "D:\\my web sait\\TechReq.DAL\\Migrations\\20251127105341_Init.cs",
+              "RelativeToolTip": "..\\TechReq.DAL\\Migrations\\20251127105341_Init.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:53:41.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20251127105619_bgmj.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq.DAL\\Migrations\\20251127105619_bgmj.cs",
+              "RelativeDocumentMoniker": "..\\TechReq.DAL\\Migrations\\20251127105619_bgmj.cs",
+              "ToolTip": "D:\\my web sait\\TechReq.DAL\\Migrations\\20251127105619_bgmj.cs",
+              "RelativeToolTip": "..\\TechReq.DAL\\Migrations\\20251127105619_bgmj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:56:19.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Services.cs",
+              "DocumentMoniker": "D:\\my web sait\\TeachRed.Domain\\Models\\Services.cs",
+              "RelativeDocumentMoniker": "..\\TeachRed.Domain\\Models\\Services.cs",
+              "ToolTip": "D:\\my web sait\\TeachRed.Domain\\Models\\Services.cs",
+              "RelativeToolTip": "..\\TeachRed.Domain\\Models\\Services.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T11:13:02.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20251127103445_updateColumn.cs",
+              "DocumentMoniker": "D:\\my web sait\\TechReq.DAL\\Migrations\\20251127103445_updateColumn.cs",
+              "RelativeDocumentMoniker": "..\\TechReq.DAL\\Migrations\\20251127103445_updateColumn.cs",
+              "ToolTip": "D:\\my web sait\\TechReq.DAL\\Migrations\\20251127103445_updateColumn.cs",
+              "RelativeToolTip": "..\\TechReq.DAL\\Migrations\\20251127103445_updateColumn.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:34:46.088Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
