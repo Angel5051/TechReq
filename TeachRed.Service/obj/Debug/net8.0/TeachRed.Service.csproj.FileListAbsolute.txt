@@ -15,3 +15,21 @@ D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.dll
 D:\my web sait\TeachRed.Service\obj\Debug\net8.0\refint\TeachRed.Service.dll
 D:\my web sait\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.pdb
 D:\my web sait\TeachRed.Service\obj\Debug\net8.0\ref\TeachRed.Service.dll
+D:\me project\TechReq\TeachRed.Service\bin\Debug\net8.0\TeachRed.Service.deps.json
+D:\me project\TechReq\TeachRed.Service\bin\Debug\net8.0\TeachRed.Service.dll
+D:\me project\TechReq\TeachRed.Service\bin\Debug\net8.0\TeachRed.Service.pdb
+D:\me project\TechReq\TeachRed.Service\bin\Debug\net8.0\TeachRed.Domain.dll
+D:\me project\TechReq\TeachRed.Service\bin\Debug\net8.0\TechReq.DAL.dll
+D:\me project\TechReq\TeachRed.Service\bin\Debug\net8.0\TeachRed.Domain.pdb
+D:\me project\TechReq\TeachRed.Service\bin\Debug\net8.0\TechReq.DAL.pdb
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.csproj.AssemblyReference.cache
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.AssemblyInfoInputs.cache
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.AssemblyInfo.cs
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.csproj.CoreCompileInputs.cache
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.sourcelink.json
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\TeachRed.F912F8F8.Up2Date
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.dll
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\refint\TeachRed.Service.dll
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\TeachRed.Service.pdb
+D:\me project\TechReq\TeachRed.Service\obj\Debug\net8.0\ref\TeachRed.Service.dll

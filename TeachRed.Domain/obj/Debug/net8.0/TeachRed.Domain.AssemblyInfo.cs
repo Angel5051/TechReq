@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeachRed.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25e15a2915cdd48f994385d26203feebc7da96a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeachRed.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeachRed.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

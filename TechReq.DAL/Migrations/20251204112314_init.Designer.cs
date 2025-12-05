@@ -12,8 +12,8 @@ using TechReq.DAL;
 namespace TechReq.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251127105619_bgmj")]
-    partial class bgmj
+    [Migration("20251204112314_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,7 +37,7 @@ namespace TechReq.DAL.Migrations
                         .HasColumnName("Assigned_staff_id");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("timestamp")
                         .HasColumnName("CreatedAt");
 
                     b.Property<string>("Description")
@@ -76,12 +76,10 @@ namespace TechReq.DAL.Migrations
 
             modelBuilder.Entity("TechReq.Domain.ModelsDb.RequestFileDb", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
+                        .HasColumnType("uuid")
                         .HasColumnName("Id");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("FileName")
                         .IsRequired()
@@ -102,25 +100,33 @@ namespace TechReq.DAL.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("Request_id");
 
+                    b.Property<Guid?>("ServiceDbId")
+                        .HasColumnType("uuid");
+
                     b.Property<DateTime>("UploadedAt")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("timestamp")
                         .HasColumnName("UploadedAt");
 
                     b.HasKey("Id");
 
                     b.HasIndex("RequestDbId");
 
+                    b.HasIndex("ServiceDbId");
+
                     b.ToTable("RequestFiles");
                 });
 
             modelBuilder.Entity("TechReq.Domain.ModelsDb.ServiceDb", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
+                        .HasColumnType("uuid")
                         .HasColumnName("Id");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("Category");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -128,11 +134,19 @@ namespace TechReq.DAL.Migrations
                         .HasColumnType("character varying(1000)")
                         .HasColumnName("Description");
 
+                    b.Property<bool>("IsExpress")
+                        .HasColumnType("boolean")
+                        .HasColumnName("IsExpress");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("character varying(255)")
                         .HasColumnName("Name");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric")
+                        .HasColumnName("Price");
 
                     b.HasKey("Id");
 
@@ -147,7 +161,7 @@ namespace TechReq.DAL.Migrations
                         .HasColumnName("Id");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("timestamp")
                         .HasColumnName("CreatedAt");
 
                     b.Property<string>("Email")
@@ -189,11 +203,20 @@ namespace TechReq.DAL.Migrations
                     b.HasOne("TechReq.Domain.ModelsDb.RequestDb", null)
                         .WithMany("Files")
                         .HasForeignKey("RequestDbId");
+
+                    b.HasOne("TechReq.Domain.ModelsDb.ServiceDb", null)
+                        .WithMany("RequestFiles")
+                        .HasForeignKey("ServiceDbId");
                 });
 
             modelBuilder.Entity("TechReq.Domain.ModelsDb.RequestDb", b =>
                 {
                     b.Navigation("Files");
+                });
+
+            modelBuilder.Entity("TechReq.Domain.ModelsDb.ServiceDb", b =>
+                {
+                    b.Navigation("RequestFiles");
                 });
 
             modelBuilder.Entity("TechReq.Domain.ModelsDb.UsersDb", b =>

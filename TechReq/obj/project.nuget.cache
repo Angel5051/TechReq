@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pxUt2wPM1Jo=",
+  "dgSpecHash": "C+CSRwaLQrA=",
   "success": true,
-  "projectFilePath": "D:\\my web sait\\TechReq\\TechReq.csproj",
+  "projectFilePath": "D:\\me project\\TechReq\\TechReq\\TechReq.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sasam\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sasam\\.nuget\\packages\\bouncycastle.cryptography\\2.6.1\\bouncycastle.cryptography.2.6.1.nupkg.sha512",

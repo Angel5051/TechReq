@@ -15,3 +15,21 @@ D:\my web sait\TechReq.DAL\bin\Debug\net8.0\TeachRed.Domain.pdb
 D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq..82959F74.Up2Date
 D:\my web sait\TechReq.DAL\bin\Debug\net8.0\TechReq.DAL.runtimeconfig.json
 D:\my web sait\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.genruntimeconfig.cache
+D:\me project\TechReq\TechReq.DAL\bin\Debug\net8.0\TechReq.DAL.deps.json
+D:\me project\TechReq\TechReq.DAL\bin\Debug\net8.0\TechReq.DAL.runtimeconfig.json
+D:\me project\TechReq\TechReq.DAL\bin\Debug\net8.0\TechReq.DAL.dll
+D:\me project\TechReq\TechReq.DAL\bin\Debug\net8.0\TechReq.DAL.pdb
+D:\me project\TechReq\TechReq.DAL\bin\Debug\net8.0\TeachRed.Domain.dll
+D:\me project\TechReq\TechReq.DAL\bin\Debug\net8.0\TeachRed.Domain.pdb
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.csproj.AssemblyReference.cache
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.AssemblyInfoInputs.cache
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.AssemblyInfo.cs
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.csproj.CoreCompileInputs.cache
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.sourcelink.json
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq..82959F74.Up2Date
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.dll
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\refint\TechReq.DAL.dll
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.pdb
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\TechReq.DAL.genruntimeconfig.cache
+D:\me project\TechReq\TechReq.DAL\obj\Debug\net8.0\ref\TechReq.DAL.dll

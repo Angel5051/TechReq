@@ -55,6 +55,22 @@ builder.Services.InitializeServices();
 
 var app = builder.Build();
 
+// === ДОБАВЛЯЕМ ЭТОТ БЛОК ДЛЯ ЗАПОЛНЕНИЯ БД ===
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<ApplicationDbContext>();
+        TechReq.DAL.DbInitializer.Initialize(context);
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "Ошибка при заполнении базы данных.");
+    }
+};
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

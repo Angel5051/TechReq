@@ -1,13 +1,12 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace TechReq.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class Init : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,10 +15,12 @@ namespace TechReq.DAL.Migrations
                 name: "Services",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
                     Name = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
-                    Description = table.Column<string>(type: "character varying(1000)", maxLength: 1000, nullable: false)
+                    Description = table.Column<string>(type: "character varying(1000)", maxLength: 1000, nullable: false),
+                    Price = table.Column<decimal>(type: "numeric", nullable: false),
+                    Category = table.Column<string>(type: "text", nullable: false),
+                    IsExpress = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -35,7 +36,7 @@ namespace TechReq.DAL.Migrations
                     Password = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
                     Email = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
                     Role = table.Column<int>(type: "integer", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    CreatedAt = table.Column<DateTime>(type: "timestamp", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -51,9 +52,9 @@ namespace TechReq.DAL.Migrations
                     Description = table.Column<string>(type: "character varying(4000)", maxLength: 4000, nullable: false),
                     Status = table.Column<int>(type: "integer", nullable: false),
                     Assigned_staff_id = table.Column<Guid>(type: "uuid", nullable: true),
-                    CreatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "timestamp", nullable: false),
                     User_id = table.Column<Guid>(type: "uuid", nullable: false),
-                    Service_id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Services_id = table.Column<Guid>(type: "uuid", nullable: false),
                     UsersDbId = table.Column<Guid>(type: "uuid", nullable: true)
                 },
                 constraints: table =>
@@ -70,13 +71,13 @@ namespace TechReq.DAL.Migrations
                 name: "RequestFiles",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
                     FileName = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: false),
                     FilePath = table.Column<string>(type: "character varying(1000)", maxLength: 1000, nullable: false),
-                    UploadedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    UploadedAt = table.Column<DateTime>(type: "timestamp", nullable: false),
                     Request_id = table.Column<int>(type: "integer", nullable: false),
-                    RequestDbId = table.Column<Guid>(type: "uuid", nullable: true)
+                    RequestDbId = table.Column<Guid>(type: "uuid", nullable: true),
+                    ServiceDbId = table.Column<Guid>(type: "uuid", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -86,12 +87,22 @@ namespace TechReq.DAL.Migrations
                         column: x => x.RequestDbId,
                         principalTable: "Requests",
                         principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_RequestFiles_Services_ServiceDbId",
+                        column: x => x.ServiceDbId,
+                        principalTable: "Services",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_RequestFiles_RequestDbId",
                 table: "RequestFiles",
                 column: "RequestDbId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_RequestFiles_ServiceDbId",
+                table: "RequestFiles",
+                column: "ServiceDbId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Requests_UsersDbId",
@@ -106,10 +117,10 @@ namespace TechReq.DAL.Migrations
                 name: "RequestFiles");
 
             migrationBuilder.DropTable(
-                name: "Services");
+                name: "Requests");
 
             migrationBuilder.DropTable(
-                name: "Requests");
+                name: "Services");
 
             migrationBuilder.DropTable(
                 name: "Users");

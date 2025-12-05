@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VuE3wbkeQ4o=",
+  "dgSpecHash": "3kLSwbpwX4A=",
   "success": true,
-  "projectFilePath": "D:\\my web sait\\TeachRed.Domain\\TeachRed.Domain.csproj",
+  "projectFilePath": "D:\\me project\\TechReq\\TeachRed.Domain\\TeachRed.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sasam\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
     "C:\\Users\\sasam\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",

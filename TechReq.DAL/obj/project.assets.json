@@ -2274,11 +2274,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\my web sait\\TechReq.DAL\\TechReq.DAL.csproj",
+      "projectUniqueName": "D:\\me project\\TechReq\\TechReq.DAL\\TechReq.DAL.csproj",
       "projectName": "TechReq.DAL",
-      "projectPath": "D:\\my web sait\\TechReq.DAL\\TechReq.DAL.csproj",
+      "projectPath": "D:\\me project\\TechReq\\TechReq.DAL\\TechReq.DAL.csproj",
       "packagesPath": "C:\\Users\\sasam\\.nuget\\packages\\",
-      "outputPath": "D:\\my web sait\\TechReq.DAL\\obj\\",
+      "outputPath": "D:\\me project\\TechReq\\TechReq.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2300,8 +2300,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\my web sait\\TeachRed.Domain\\TeachRed.Domain.csproj": {
-              "projectPath": "D:\\my web sait\\TeachRed.Domain\\TeachRed.Domain.csproj"
+            "D:\\me project\\TechReq\\TeachRed.Domain\\TeachRed.Domain.csproj": {
+              "projectPath": "D:\\me project\\TechReq\\TeachRed.Domain\\TeachRed.Domain.csproj"
             }
           }
         }

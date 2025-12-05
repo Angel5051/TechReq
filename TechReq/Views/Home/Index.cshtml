@@ -2,140 +2,198 @@
     ViewData["Title"] = "Главная";
 }
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background: #f0f2ff;
-        margin: 0;
-        padding: 0;
-    }
-
-    #authBtn {
-        padding: 12px 24px;
-        background: #6366f1;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 16px;
-        transition: 0.3s;
-    }
-
-        #authBtn:hover {
-            background: #7c3aed;
-        }
-
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 999;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0,0,0,0.5);
-    }
-
-    .modal-content {
-        background: rgba(255,255,255,0.15);
-        backdrop-filter: blur(12px);
-        margin: 6% auto;
-        padding: 25px;
-        border-radius: 18px;
-        width: 380px;
-        color: #fff;
-        position: relative;
-        box-shadow: 0 0 25px rgba(0,0,0,0.4);
-        animation: popup 0.4s ease;
-    }
+<section class="hero-section">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Современная техническое обслуживание авто <br> по доступным ценам</h1>
+            <p>
+                Наши услуги по обслуживанию автомобиля на 100% качественны.<br>
+                Все специалисты сертифицированы, а в работе мы используем современное оборудование и качественные материалы.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Выбрать услугу</button>
+                <button class="btn btn-secondary">Записаться онлайн</button>
+            </div>
+            <div class="hero-rating glass-mini">
+                <span class="rating">4.9</span>
+                <span class="rating-text">Отзывы клиентов</span>
+                <div class="users">
+                    <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="User">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="User">
+                    <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="User">
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="~/young-mechanic-uniform-with-crossed-arms-wrenches-standing-isolated-white_926199-4244045 (1).png" alt="Hero">
+        </div>
+    </div>
+</section>
 
 
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
+<section class="why">
+    <div class="why__title">
+        <h2>Почему нам <span>доверяют</span></h2>
+        <p>
+            Мы работаем уже более 12 лет и предоставляем максимально качественные услуги.
+        </p>
+        <p class="why__highlight fancy-liquid">
+            Пока ваше авто проходит обслуживание — мы выдаём вам временное авто,
+            чтобы вы могли продолжать движение без остановок.
+        </p>
+    </div>
+
+    <div class="why__grid">
+        <div class="why__card">
+            <h3>12+</h3>
+            <p>Лет работы</p>
+        </div>
+
+        <div class="why__card">
+            <h3>10 000+</h3>
+            <p>Довольных клиентов</p>
+        </div>
+
+        <div class="why__card">
+            <h3>4,9</h3>
+            <p>Средняя оценка сервиса</p>
+        </div>
+
+        <div class="why__card">
+            <h3>4</h3>
+            <p>Года гарантии</p>
+        </div>
+    </div>
+</section>
+
+<section class="promo">
+    <div class="promo__title">
+        <h2>Акции и скидки —<br>заботимся о вашем автомобиле и бюджете</h2>
+    </div>
+
+    <div class="promo__grid">
+
+        <div class="card">
+            <h3>Скидка 30%</h3>
+            <p>На комплексное ТО<br>Диагностика, замена масел и фильтров со скидкой.</p>
+            <button>Подробнее</button>
+            <img src="img/clean.png" alt="" class="card__img">
+        </div>
+
+        <div class="card card--big">
+            <h3>Бесплатная первичная диагностика</h3>
+            <p>Проверка основных систем автомобиля и рекомендации по обслуживанию без оплаты.</p>
+            <button>Подробнее</button>
+            <img src="img/free.png" alt="" class="card__img">
+        </div>
+
+        <div class="card">
+            <h3>Check-up авто со скидкой</h3>
+            <p>Полный осмотр, компьютерная диагностика и консультация — всего за 1500 ₽.</p>
+            <button>Подробнее</button>
+            <img src="img/checkup.png" alt="" class="card__img">
+        </div>
+
+        <div class="card">
+            <h3>Семейная программа</h3>
+            <p>Скидка 10% на обслуживание каждого автомобиля в вашей семье.</p>
+            <button>Подробнее</button>
+            <img src="img/family.png" alt="" class="card__img">
+        </div>
+
+        <div class="card">
+            <h3>Скидка 50% на повторное обслуживание</h3>
+            <p>Выгодно для тех, кто обслуживает сразу два узла или системы автомобиля.</p>
+            <button>Подробнее</button>
+            <img src="img/tooth.png" alt="" class="card__img">
+        </div>
+
+    </div>
+</section>
 
 
 
-    .close {
-        position: absolute;
-        right: 12px;
-        top: 8px;
-        font-size: 26px;
-        cursor: pointer;
-        color: #fff;
-    }
+<section class="cars-section">
 
-    .tabs {
-        display: flex;
-        margin-bottom: 16px;
-    }
+    <div class="top">
+        <div class="left">
+            <h1>Наши услуги<br>для твоего вайба</h1>
+            <p class="subtext">
+                На схеме показан весь процесс обслуживания вашего автомобиля.
+                Мы заботимся о каждой детали, чтобы машина всегда была в идеальном состоянии.
+            </p>
 
-    .tab-btn {
-        flex: 1;
-        padding: 10px;
-        text-align: center;
-        cursor: pointer;
-        border-bottom: 2px solid transparent;
-        transition: 0.35s ease;
-        color: rgba(255,255,255,0.7);
-        font-size: 15px;
-    }
+            <img src="~/cars.png" class="frame-img" alt="Схема автомобиля">
+        </div>
 
-        .tab-btn.active {
-            border-bottom: 2px solid #fff;
-            color: #fff;
-            font-weight: bold;
-            transform: translateY(-2px);
-        }
+        <div class="right">
+            <div class="feature">
+                <img src="~/pngwing.com.png" alt="Замена масла">
+                <div>
+                    <h3>Замена масла</h3>
+                    <p>Полная замена моторного масла и фильтров</p>
+                </div>
+            </div>
 
-    .tab-form {
-        display: none;
-        opacity: 0;
-        transform: translateY(10px);
-        transition: opacity 0.35s ease, transform 0.35s ease;
-    }
+            <div class="feature">
+                <img src="~/diagnos.png" alt="Диагностика">
+                <div>
+                    <h3>Компьютерная диагностика</h3>
+                    <p>Проверка всех систем автомобиля</p>
+                </div>
+            </div>
 
-        .tab-form.active {
-            display: block;
-            opacity: 1;
-            transform: translateY(0);
-        }
+            <div class="feature">
+                <img src="~/color.png" alt="Покраска">
+                <div>
+                    <h3>Покраска и полировка</h3>
+                    <p>Восстановление внешнего вида кузова и лакокрасочного покрытия</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        .tab-form input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 12px;
-            border-radius: 8px;
-            border: none;
-        }
+    <div class="catalog">
+        <h2>Популярные услуги</h2>
 
-        .tab-form button {
-            width: 100%;
-            padding: 12px;
-            margin-top: 5px;
-            border: none;
-            border-radius: 8px;
-            background: #6366f1;
-            color: white;
-            cursor: pointer;
-            font-size: 16px;
-            transition: 0.3s;
-        }
+        <div class="cars">
+            <div class="car-card">
+                <img src="~/shino.png" alt="Шиномонтаж">
+                <h4>Шиномонтаж</h4>
+                <p>Сезонная замена и балансировка колес</p>
+            </div>
 
-            .tab-form button:hover {
-                background: #7c3aed;
-            }
+            <div class="car-card">
+                <img src="~/zamenaakkumulyatora.png" alt="Замена аккумулятора">
+                <h4>Замена аккумулятора</h4>
+                <p>Проверка и установка новой батареи</p>
+            </div>
 
-    .email-login-btn {
-        margin-top: 10px;
-        background: #4f46e5;
-    }
+            <div class="car-card">
+                <img src="~/konder.png" alt="Обслуживание кондиционера">
+                <h4>Обслуживание кондиционера</h4>
+                <p>Заправка и чистка системы охлаждения</p>
+            </div>
 
-    .error {
-        color: #ff6b6b;
-        font-size: 14px;
-        margin-bottom: 6px;
-    }
-</style>
+            <div class="car-card">
+                <img src="~/podveska.png" alt="Подвеска">
+                <h4>Ремонт подвески</h4>
+                <p>Замена амортизаторов и стоек</p>
+            </div>
+        </div>
+    </div>
+</section>
 
+
+
+<!-- Секция с кнопками -->
+<section class="cta-section">
+    <div class="cta-container">
+        <h2>Нужен автомобиль на время ремонта?</h2>
+        <p>Пока ваш автомобиль проходит обслуживание, мы предоставим вам временное авто, чтобы вы оставались на ходу без задержек.</p>
+        <div class="cta-buttons">
+            <button class="btn-primary">Получить временное авто</button>
+            <button class="btn-secondary">Записаться на сервис</button>
+        </div>
+    </div>
+</section>

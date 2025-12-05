@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TeachRed.Domain",
+    "\\TeachRed.Domain\\Enum",
+    "\\TeachRed.Domain\\Helpers",
+    "\\TeachRed.Domain\\Models",
+    "\\TechReq",
+    "\\TechReq\\Views",
+    "\\TechReq\\Views\\Services",
+    "\\TechReq\\Views\\Shared",
+    "\\TechReq\\wwwroot"
+  ],
+  "SelectedNode": "\\TechReq\\TechReq.sln",
+  "PreviewInSolutionExplorer": false
+}

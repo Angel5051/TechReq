@@ -12,3 +12,18 @@ D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\ref\TeachRed.Domain.dll
 D:\my web sait\TeachRed.Domain\bin\Debug\net8.0\TeachRed.Domain.runtimeconfig.json
 D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.genruntimeconfig.cache
 D:\my web sait\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.csproj.AssemblyReference.cache
+D:\me project\TechReq\TeachRed.Domain\bin\Debug\net8.0\TeachRed.Domain.deps.json
+D:\me project\TechReq\TeachRed.Domain\bin\Debug\net8.0\TeachRed.Domain.runtimeconfig.json
+D:\me project\TechReq\TeachRed.Domain\bin\Debug\net8.0\TeachRed.Domain.dll
+D:\me project\TechReq\TeachRed.Domain\bin\Debug\net8.0\TeachRed.Domain.pdb
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.csproj.AssemblyReference.cache
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.AssemblyInfoInputs.cache
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.AssemblyInfo.cs
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.csproj.CoreCompileInputs.cache
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.sourcelink.json
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.dll
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\refint\TeachRed.Domain.dll
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.pdb
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\TeachRed.Domain.genruntimeconfig.cache
+D:\me project\TechReq\TeachRed.Domain\obj\Debug\net8.0\ref\TeachRed.Domain.dll

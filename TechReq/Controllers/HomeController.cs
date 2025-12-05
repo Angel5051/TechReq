@@ -11,7 +11,8 @@ using TeachRed.Service;
 using TeachRed.Service.Interfaces;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication.Google;   
+using Microsoft.AspNetCore.Authentication.Google;
+
 
 namespace TeachRed.Web.Controllers
 {
@@ -40,22 +41,49 @@ namespace TeachRed.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailViewModel model)
         {
+            // Маппинг и вызов сервиса
             var user = _mapper.Map<Users>(model);
+            // Предполагается, что response.Data содержит ClaimsIdentity при успехе
             var response = await _accountService.ConfirmEmail(user, model.Code, model.ConfirmCode);
 
             if (response.StatusCode == TeachRed.Domain.Enum.StatusCode.Ok)
             {
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                    new ClaimsPrincipal(response.Data));
+                // ЯВНАЯ ПРОВЕРКА и АВТОРИЗАЦИЯ
+                if (response.Data is ClaimsIdentity identity)
+                {
+                    await HttpContext.SignInAsync(
+                        CookieAuthenticationDefaults.AuthenticationScheme,
+                        new ClaimsPrincipal(identity) // Используем полученные Claims
+                    );
 
-                return Json(new { statusCode = 200, description = "Успешный вход" });
+                    // УСПЕХ: Возвращаем однозначный сигнал success = true
+                    return Json(new { success = true, description = "Регистрация и вход выполнены." });
+                }
+
+                // Крайний случай, если сервис вернул ОК, но данные (Claims) отсутствуют
+                return Json(new { success = false, errors = new[] { "Ошибка сессии: нет данных для входа." } });
             }
-            return Json(new { statusCode = 500, description = response.Description });
+
+            // Ошибка
+            var msg = response.Description;
+            return Json(new { success = false, errors = new[] { msg } });
         }
 
         // ------------------------------------------------------------------
         // --- Обработка выхода (Logout) ---
         // ------------------------------------------------------------------
+        [HttpGet]
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Map()
+        {
+            return View();
+        }
+
         [HttpGet] // Важно: это GET запрос, так как мы переходим по ссылке
         public async Task<IActionResult> Logout()
         {
@@ -76,22 +104,31 @@ namespace TeachRed.Web.Controllers
 
                 if (response.StatusCode == TeachRed.Domain.Enum.StatusCode.Ok)
                 {
-                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                        new ClaimsPrincipal(response.Data));
+                    // ЯВНАЯ ПРОВЕРКА и АВТОРИЗАЦИЯ
+                    if (response.Data is ClaimsIdentity identity)
+                    {
+                        await HttpContext.SignInAsync(
+                            CookieAuthenticationDefaults.AuthenticationScheme,
+                            new ClaimsPrincipal(identity) // Используем полученные Claims
+                        );
 
-                    // ИСПРАВЛЕНИЕ: Возвращаем JSON с полем success = true
-                    return Json(new { success = true });
+                        // УСПЕХ: Возвращаем однозначный сигнал success = true
+                        return Json(new { success = true, description = "Вход выполнен." });
+                    }
+                    return Json(new { success = false, errors = new[] { "Ошибка сессии: нет данных для входа." } });
                 }
 
+                // Ошибка сервиса (неверный пароль)
                 ModelState.AddModelError("", response.Description);
             }
 
+            // Сбор ошибок валидации модели
             var errors = ModelState.Values
                 .SelectMany(v => v.Errors)
                 .Select(e => e.ErrorMessage)
                 .ToList();
 
-            // ИСПРАВЛЕНИЕ: Возвращаем JSON с success = false и списком ошибок
+            // Возвращаем JSON с success = false и списком ошибок
             return Json(new { success = false, errors = errors });
         }
 

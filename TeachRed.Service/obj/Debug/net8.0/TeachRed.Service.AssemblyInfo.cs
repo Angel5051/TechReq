@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeachRed.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25e15a2915cdd48f994385d26203feebc7da96a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeachRed.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeachRed.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
